@@ -1,15 +1,51 @@
-## FOODHUB
+<a name="readme-top"></a>
 
-- This is a React project for a calculator application.
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-- React JS
+<!-- PROJECT DESCRIPTION -->
 
-### Linter Tests
+# 📖 Math-Magicians <a name="about-project"></a>
 
-- `npx stylelint "**/*.{css,scss}"`
-- `npx eslint .`
+
+**Math-Magicians** is a React based calculator app which is made by class components.
+
+## 🛠 Built With <a name="built-with"></a>
+
+
+### Tech Stack <a name="tech-stack"></a>
+
+> It is built with React JS
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> [Live Demo Link]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -17,32 +53,92 @@
 - A text editor (e.g Visual Studio Code, Vim, Atom & Sublime.)
 - A web browser (e.g Chrome, Safari, Mozilla Firefox.)
 
-### Getting Started
+### Setup
 
-To get a local copy up and running follow these simple example steps.
+Clone this repository to your desired folder use the following command
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+```sh
+  git clone git@github.com:usamamaliq/math-magicians.git
+```
+### Install
 
-## Authors
+Install this project with:
 
-👤 Usama Malik
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+- npx stylelint"**/*.{css,scss}"
+- npx eslint .
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Usama Malik**
 
 - GitHub: [@usamamaliq](https://github.com/usamamaliq)
 - LinkedIn: [@usamamaliq](https://www.linkedin.com/in/usamamaliq/)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Contributions, issues, and feature requests are welcome!
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [Refactor with hooks] **[new_feature_1]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
 
 - Give a ⭐️ if you like this project!
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- This project is [MIT](./LICENSE.md) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for this awesome platform.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
