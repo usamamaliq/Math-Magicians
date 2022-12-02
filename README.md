@@ -24,7 +24,7 @@
 # 📖 Math-Magicians <a name="about-project"></a>
 
 
-**Math-Magicians** is a React based calculator app which is made by class components.
+**Math-Magicians** is a React based calculator app which is made by functional components and hooks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
