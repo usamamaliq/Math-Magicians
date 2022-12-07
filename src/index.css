@@ -1,21 +1,91 @@
-.container {
-  width: 100vw;
-  height: 100vh;
+body {
+  background-image: linear-gradient(to right, rgba(11, 226, 3, 0), rgb(144, 159, 190));
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 1vw 5vw 0 5vw;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.5rem;
+  border-radius: 2vw;
+  
+}
+
+.title {
+  color: rgb(231, 150, 80);
+  margin-left: 1vw;
+}
+
+.menuContainer {
   display: flex;
   align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  gap: 2vw;
+  margin-right: 2vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  color: #092149;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1vw;
+  padding: 0.7vw;
+  border: 1px solid transparent;
+}
+
+a:hover {
+  border: 1px solid white;
+}
+
+.homeContainer {
+  display: flex;
+  text-align: center;
   justify-content: center;
+  padding: 5vw;
+  font-size: 1.3vw;
+  line-height: 3vw;
+  color: #092149;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vw;
+}
+
+.calculatorTitle {
+  color: #092149;
+  margin-top: 1vw;
+  margin-left: 5vw;
+  font-size: 3vw;
 }
 
 .calculator {
   width: 32vw;
-  background-color: rgb(136, 134, 134);
+  border-radius: 1vw;
 }
 
 .result {
-  font-size: 3rem;
-  padding: 1rem;
+  font-size: 2rem;
+  padding: 1.3rem;
   display: flex;
   justify-content: flex-end;
+  background-color: rgb(136, 134, 134);
+  border: 1px solid rgb(209, 209, 209);
+  transition: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1vw;
 }
 
 button {
@@ -24,11 +94,12 @@ button {
   color: black;
   background-color: rgb(224, 224, 224);
   outline: none;
-  font-size: 2rem;
-  padding: 1.6rem;
+  font-size: 1.2rem;
+  padding: 1.5rem;
   cursor: pointer;
   transition: 0.4s;
   width: 8vw;
+  border-radius: 1vw;
 }
 
 button:hover {
@@ -41,4 +112,14 @@ button:hover {
 
 .orangeBg {
   background-color: rgb(231, 150, 80);
+}
+
+.quoteContainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 5vw;
+  font-size: 1.3vw;
+  line-height: 3vw;
+  color: #092149;
 }
